@@ -12,7 +12,7 @@ h3 {
 }
 
 #title {
-  background-color: #E07D78;
+  background-color: #d16e34;
   position: relative;
   padding-bottom: 3.25%;
 }
@@ -59,7 +59,7 @@ h3 {
 }
 
 .sticky-top {
-  background-color: #E07D78;
+  background-color: #d16e34;
 }
 
 /*styling for name +bio*/
@@ -161,7 +161,7 @@ ul.social-buttons li {
 .section-title {
   font-weight: bold;
   font-size: 1.43rem;
-  color: #E07D78;
+  color: #d16e34;
 }
 
 /**************************
@@ -187,7 +187,7 @@ ul.social-buttons li {
 .job-company {
   font-weight: bolder;
   line-height: 1.2;
-  color: #E07D78;
+  color: #d16e34;
 }
 
 /* text for experience*/
@@ -271,7 +271,7 @@ ul.social-buttons li {
 
 
 .contact-text {
-  color: #E07D78;
+  color: #d16e34;
   font-weight: bolder;
 }
 
@@ -336,16 +336,16 @@ button {
 }
 
 button:hover {
-  background: #E07D78;
+  background: #d16e34;
   color: #fff;
-  border-color: #E07D78;
+  border-color: #d16e34;
 }
 
 /***********
 * *footer
 ***********/
 #footer {
-  background-color: #E07D78;
+  background-color: #d16e34;
   color: white;
   padding: 2% 15%;
   text-align: center;
