@@ -22,7 +22,8 @@ h3 {
 }
 
 .img-of-me {
-  width: 60%; /* Adjust to fit better */
+  margin-top: 2rem;  
+  width: 70%;         
   height: auto;
   object-fit: cover;
   border-radius: 10px;
