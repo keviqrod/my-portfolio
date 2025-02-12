@@ -24,7 +24,7 @@ h3 {
 .img-of-me {
   margin-top: 2rem; 
   top: 50px;  /* Moves the image slightly down */
-  left: 10px;  /* Adjust if needed to move horizontally */
+  left: 70px;  /* Adjust if needed to move horizontally */
   width: 80%;         
   height: auto;
   object-fit: cover;
