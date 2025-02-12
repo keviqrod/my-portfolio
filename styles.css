@@ -197,6 +197,100 @@ ul.social-buttons li {
   padding: 5% 5% 0% 6%;
 }
 
+/****************
+* CONTACT SECTION
+*****************/
+
+#contact {
+  padding: 3% 5% 5% 6%;
+  text-align: center;
+  margin-top: -20px; /* Moves the section up slightly */
+  padding-bottom: 80px; /* Ensures space above footer */
+}
+
+/* Centering and form container */
+.center {
+  margin: auto;
+  max-width: 600px;  /* Keeps form width clean and centered */
+}
+
+/* Contact Title Styling */
+.contact-header {
+  text-align: left;
+  font-size: 2.5rem;
+  color: #203F96;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+/* Contact Subtitle */
+.contact-text {
+  font-size: 1.2rem;
+  color: #5a5a5a;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form {
+  width: 75%;
+  height: auto;
+  background: white;
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 2px solid #bebed2;
+  font-size: 1rem;
+}
+
+/* Input Fields Focus State */
+input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+/* Label Styling */
+.email:before {
+  content: attr(type);
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+
+/* Submit Button Styling */
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 15px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #78788c;
+  background: transparent;
+  color: #5a5a6e;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* Button Hover Effect */
+button:hover {
+  background: #E07D78;
+  color: #fff;
+  border-color: #E07D78;
+  transition: all 0.3s ease-in-out;
+}
+
+
 /* Learn More Button */
 .btn {
   background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
