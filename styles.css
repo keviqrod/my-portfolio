@@ -185,15 +185,9 @@ ul.social-buttons li {
 /* CONTACT SECTION */
 #contact {
   /* Same logic here: */
-  padding: 5% 5% 5% 5%;
+  padding: padding: 5% 5% 0% 6%;
 }
 
-
-/* About SECTION */
-#about {
-  /* Same logic here: */
-  padding: 5% 5% 5% 5%;
-}
 
 /* Experience Section */
 .job {
