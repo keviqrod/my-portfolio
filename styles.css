@@ -145,7 +145,7 @@ ul.social-buttons li {
 
 /* About Section */
 #features {
-  padding: 5% 5% 100% 6%;
+  padding: 5% 5% 0% 6%;
   line-height: 2;
   font-size: 1.2rem;
 }
@@ -169,9 +169,9 @@ ul.social-buttons li {
 /* Resume */
 #resume {
   background-color: #f0efef;
+  display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 20px;
-  display: grid;
   padding: 5% 5% 0% 6%;
   border-bottom: 1px solid lightgrey;
 }
@@ -194,7 +194,6 @@ ul.social-buttons li {
   padding-bottom: 14px;
   margin-bottom: 14px;
   border-bottom: 1px solid lightgrey;
-  
 }
 
 .job:last-child {
@@ -261,6 +260,5 @@ ul.social-buttons li {
   margin-left: 0;
   list-style-type: disc;
 }
-
 
 
