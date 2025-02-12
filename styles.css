@@ -195,6 +195,9 @@ ul.social-buttons li {
 #contact {
   /* Same logic here: */
   padding: 5% 5% 0% 6%;
+  margin-left: 0%; /* Adjust this value for fine-tuning */
+   margin-top: -50px; /* Moves it up */
+  padding-bottom: 80px; /* Adds space above footer */
 }
 
 /****************
@@ -231,6 +234,7 @@ ul.social-buttons li {
   position: relative;
   padding: 20px;
   border-radius: 8px;
+  
 }
 
 /* Input Fields */
