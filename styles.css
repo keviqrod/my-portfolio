@@ -134,7 +134,7 @@ ul.social-buttons li {
   padding-bottom: 10%;
 }
 
-.brandico-x-twitter {
+.brandico-twitter {
   background-color: #3f729b;
 }
 
@@ -213,7 +213,7 @@ ul.social-buttons li {
   font-size: 2.5em;
 }
 
-.fa-linkedin, .fa-x-twitter {
+.fa-linkedin, .fa-twitter {
   display: inline-block;
   width: 1.2em;
   color:white;
