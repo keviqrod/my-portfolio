@@ -217,7 +217,7 @@ ul.social-buttons li {
 #footer {
   background-color: #d16e34;
   color: white;
-  padding: 2% 15%;
+  padding: 4% 15%;
   text-align: center;
 }
 
@@ -265,15 +265,18 @@ ul.social-buttons li {
 * CONTACT SECTION
 *****************/
 #contact {
-  padding: 3% 5% 0% 6%;
+  padding: 5% 5% 5% 6%;  /* Ensure bottom padding is added */
   text-align: center;
-  margin-bottom: -50px; /* Moves the section up */
+  margin-bottom: 0px;  /* Remove negative margin */
 }
-
 
 .center {
   margin: auto;
-  max-width: 600px;  /* Centers the form and limits width */
+  max-width: 600px; /* Centers form and limits width */
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for better separation */
 }
 
 .contact-header {
