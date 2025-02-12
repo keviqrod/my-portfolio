@@ -23,8 +23,8 @@ h3 {
 
 .img-of-me {
   margin-top: 2rem; 
-  top: 20px;  /* Moves the image slightly down */
-  left: 5px;  /* Adjust if needed to move horizontally */
+  top: 50px;  /* Moves the image slightly down */
+  left: 10px;  /* Adjust if needed to move horizontally */
   width: 80%;         
   height: auto;
   object-fit: cover;
