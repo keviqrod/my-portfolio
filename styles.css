@@ -144,6 +144,13 @@ ul.social-buttons li {
 }
 
 /* About Section */
+
+#about {
+  padding: 5% 5% 0% 6%; /* Keep the same padding logic as resume */
+  margin-left: 1%; /* Adjust this value for fine-tuning */
+}
+
+
 #features {
   padding: 5% 5% 0% 6%;
   line-height: 2;
