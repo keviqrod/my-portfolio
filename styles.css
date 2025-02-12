@@ -171,6 +171,7 @@ ul.social-buttons li {
   background-color: #f0efef;
   grid-template-columns: 1fr 4fr;
   gap: 20px;
+  display: grid;
   padding: 5% 5% 0% 6%;
   border-bottom: 1px solid lightgrey;
 }
@@ -193,7 +194,6 @@ ul.social-buttons li {
   padding-bottom: 14px;
   margin-bottom: 14px;
   border-bottom: 1px solid lightgrey;
-  display: grid;
   
 }
 
