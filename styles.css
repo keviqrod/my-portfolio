@@ -169,7 +169,6 @@ ul.social-buttons li {
 /* Resume */
 #resume {
   background-color: #f0efef;
-  display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 20px;
   padding: 5% 5% 0% 6%;
@@ -194,6 +193,8 @@ ul.social-buttons li {
   padding-bottom: 14px;
   margin-bottom: 14px;
   border-bottom: 1px solid lightgrey;
+  display: grid;
+  
 }
 
 .job:last-child {
@@ -261,15 +262,5 @@ ul.social-buttons li {
   list-style-type: disc;
 }
 
-#about {
-  /* top right bottom left */
-  padding: 5% 5% 0% 6%;
-  ...
-}
 
-#resume {
-  /* same top right bottom left as #about: */
-  padding: 5% 5% 0% 6%;
-  ...
-}
 
