@@ -261,3 +261,15 @@ ul.social-buttons li {
   list-style-type: disc;
 }
 
+#about {
+  /* top right bottom left */
+  padding: 5% 5% 0% 6%;
+  ...
+}
+
+#resume {
+  /* same top right bottom left as #about: */
+  padding: 5% 5% 0% 6%;
+  ...
+}
+
