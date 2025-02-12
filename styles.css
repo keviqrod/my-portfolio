@@ -261,9 +261,4 @@ ul.social-buttons li {
   list-style-type: disc;
 }
 
-.move-right {
-  display: inline-block;  /* Makes sure only the text moves */
-  margin-left: 15px;      /* Adjust this value as needed */
-}
-
 
