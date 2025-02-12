@@ -201,13 +201,6 @@ ul.social-buttons li {
 * CONTACT SECTION
 *****************/
 
-#contact {
-  padding: 3% 5% 5% 6%;
-  text-align: center;
-  margin-top: -20px; /* Moves the section up slightly */
-  padding-bottom: 80px; /* Ensures space above footer */
-}
-
 /* Centering and form container */
 .center {
   margin: auto;
