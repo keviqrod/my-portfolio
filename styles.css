@@ -265,10 +265,11 @@ ul.social-buttons li {
 * CONTACT SECTION
 *****************/
 #contact {
-  padding: 5% 5% 0% 6%;
+  padding: 3% 5% 0% 6%;
   text-align: center;
   margin-bottom: -50px; /* Moves the section up */
 }
+
 
 .center {
   margin: auto;
@@ -343,33 +344,6 @@ button:hover {
   border-color: #E07D78;
   transition: all 0.3s ease-in-out;
 }
-
-/* Unsure if past this is actually needed */
-
-@media (max-width: 450px) {
-  .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-  }
-}
-
-  /* this accounts for spacing across device*/
-  @media only screen and (max-width: 760px) {
-    #resume {
-      grid-template-columns: 1fr;
-    }
-
-    .job-title-container {
-      flex-direction: column;
-    }
-
-    .skills-container {
-      grid-template-columns: 1fr 1fr;
-    }
 
 
 
