@@ -202,61 +202,47 @@ ul.social-buttons li {
 }
 
 /****************
-* CONTACT SECTION
+* CONTACT FORM FIXED
 *****************/
+#contact {
+  padding: 5% 0 8%; /* Ensures spacing above and below */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Prevents it from going too low */
+}
 
-/* Centering and form container */
 .center {
   margin: auto;
-  max-width: 600px;  /* Keeps form width clean and centered */
+  text-align: center;
 }
 
-/* Contact Title Styling */
-.contact-header {
-  text-align: left;
-  font-size: 2.5rem;
-  color: #203F96;
-  text-decoration: underline;
-  margin-bottom: 15px;
-}
-
-/* Contact Subtitle */
-.contact-text {
-  font-size: 1.2rem;
-  color: #5a5a5a;
-  margin-bottom: 20px;
-}
-
-/* Form Styling */
 .form {
-  width: 75%;
-  height: 75%;
+  width: 50%;  /* Reduce width for better layout */
+  max-width: 500px;  /* Prevents it from stretching too much */
   background: white;
-  position: relative;
   padding: 20px;
-  border-radius: 8px;
-  
+  border-radius: 10px; /* Slightly rounded edges */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+  position: relative;
 }
 
-/* Input Fields */
 input {
   width: 100%;
   padding: 12px;
+  margin: 10px 0;  /* Adds spacing between fields */
   background: none;
   outline: none;
-  resize: none;
   border: 0;
   font-family: 'Montserrat', sans-serif;
   border-bottom: 2px solid #bebed2;
   font-size: 1rem;
 }
 
-/* Input Fields Focus State */
 input:focus {
   border-bottom: 2px solid #78788c;
 }
 
-/* Label Styling */
 .email:before {
   content: attr(type);
   display: block;
@@ -266,11 +252,11 @@ input:focus {
   text-transform: uppercase;
 }
 
-/* Submit Button Styling */
+/* Submit Button */
 button {
   float: right;
-  padding: 8px 12px;
-  margin: 15px 0 0;
+  padding: 10px 15px;
+  margin-top: 15px;
   font-family: 'Montserrat', sans-serif;
   border: 2px solid #78788c;
   background: transparent;
@@ -280,13 +266,20 @@ button {
   border-radius: 5px;
 }
 
-/* Button Hover Effect */
 button:hover {
   background: #E07D78;
   color: #fff;
   border-color: #E07D78;
   transition: all 0.3s ease-in-out;
 }
+
+/* Ensures form doesn't drop too low */
+@media (max-width: 768px) {
+  .form {
+    width: 80%;
+  }
+}
+
 
 
 /* Learn More Button */
