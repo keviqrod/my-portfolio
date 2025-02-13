@@ -224,6 +224,21 @@ ul.social-buttons li {
   color: #d16e34;
 }
 
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 14px;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.skills-container ul {
+  margin-left: 0;
+  list-style-type: disc;
+}
+
 /* Footer */
 #footer {
   background-color: #d16e34;
@@ -256,20 +271,6 @@ ul.social-buttons li {
   font-weight: bold;
   font-size: 1.43rem;
   color: #E07D78;
-}
-
-.skills-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  margin-bottom: 14px;
-  font-size: 1.1rem;
-  line-height: 2;
-}
-
-.skills-container ul {
-  margin-left: 0;
-  list-style-type: disc;
 }
 
 
