@@ -218,14 +218,15 @@ ul.social-buttons li {
 }
 
 .form {
-  width: 50%;  /* Reduce width for better layout */
-  max-width: 500px;  /* Prevents it from stretching too much */
+  width: 75%;
+  max-width: 600px; /* Prevents it from getting too wide */
   background: white;
-  padding: 20px;
-  border-radius: 10px; /* Slightly rounded edges */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
   position: relative;
+  margin: auto; /* Centers the form */
+  padding: 20px; /* Adds space inside */
+  border-radius: 8px;
 }
+
 
 input {
   width: 100%;
@@ -237,6 +238,7 @@ input {
   font-family: 'Montserrat', sans-serif;
   border-bottom: 2px solid #bebed2;
   font-size: 1rem;
+  max-width: 500px
 }
 
 input:focus {
