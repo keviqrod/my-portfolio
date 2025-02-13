@@ -161,9 +161,10 @@ ul.social-buttons li {
 
 .about-img {
   border-radius: 100%;
-  width: 36%;
+  height: 18%;
+  width: 18%;
   float: left;
-  margin-right: 40px;
+  margin-left: 20px; 
 }
 
 .about-sec {
