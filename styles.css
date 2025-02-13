@@ -229,7 +229,7 @@ ul.social-buttons li {
 /* Form Styling */
 .form {
   width: 75%;
-  height: auto;
+  height: 75%;
   background: white;
   position: relative;
   padding: 20px;
@@ -240,7 +240,7 @@ ul.social-buttons li {
 /* Input Fields */
 input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   background: none;
   outline: none;
   resize: none;
