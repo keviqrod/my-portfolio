@@ -26,7 +26,7 @@ h3 {
   top: 50px;  /* Moves the image slightly down */
   margin-left: 20px;  /* Adjust if needed to move horizontally */
   width: 80%;         
-  height: 110%;
+  height: 90%;
   object-fit: cover;
   border-radius: 10px;
 }
