@@ -276,6 +276,66 @@ ul.social-buttons li {
   color: #E07D78;
 }
 
+/* ------------------------------
+   Mobile Responsiveness Tweaks
+   (Only applied on screens 768px wide or smaller)
+--------------------------------- */
+@media only screen and (max-width: 768px) {
+  /* Stack the title section vertically and remove fixed height */
+  #title {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+  
+  /* Make the title image scale properly */
+  .img-of-me {
+    width: 100% !important;
+    height: auto !important;
+    margin: 1rem auto;
+    top: 0;
+    margin-left: 0;
+  }
+  
+  /* Scale down the name and adjust its margin */
+  .my-name {
+    margin: 1rem auto 0 auto;
+    font-size: 3rem;
+  }
+  
+  /* Slightly reduce bio font size */
+  .bio {
+    font-size: 1.2rem;
+  }
+  
+  /* Center the about image and adjust its size */
+  .about-img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 30%;
+    height: auto;
+  }
+  
+  /* In the Resume section, stack grid columns into one */
+  #resume {
+    grid-template-columns: 1fr;
+    padding: 5% 5% 0% 6%; /* Keeping your original padding logic */
+  }
+  
+  /* Stack job title container items vertically */
+  .job-title-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Adjust the skills grid to 2 columns */
+  .skills-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
 
 
 
