@@ -244,10 +244,10 @@ ul.social-buttons li {
 #footer {
   background-color: #d16e34; /* Match the desired color */
   color: white;
-  width: 100vw; /* Ensures the footer stretches across the full viewport width */
+  width: 100; /* Ensures the footer stretches across the full viewport width */
   padding: 4% 15%; /* Adjust padding to create more vertical space */
   text-align: center;
-  position: relative; /* Ensures it stays in place without affecting layout */
+  
 }
 
 .social-icon {
