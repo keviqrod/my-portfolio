@@ -201,58 +201,57 @@ ul.social-buttons li {
   padding-bottom: 80px; /* Adds space above footer */
 }
 
-/****************
-* CONTACT FORM FIXED
-*****************/
-#contact {
-  padding: 5% 0 8%; /* Ensures spacing above and below */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh; /* Prevents it from going too low */
-}
-
 .center {
   margin: auto;
-  text-align: center;
 }
 
 .form {
   width: 75%;
-  max-width: 600px; /* Prevents it from getting too wide */
+  height: 75%;
   background: white;
-  position: relative;
-  margin: auto; /* Centers the form */
-  padding: 20px; /* Adds space inside */
-  border-radius: 8px;
+  position: relative
 }
-
 
 input {
   width: 100%;
-  padding: 12px;
-  margin: 10px 0;  /* Adds spacing between fields */
+  padding: 10px;
   background: none;
   outline: none;
+  resize: none;
   border: 0;
   font-family: 'Montserrat', sans-serif;
-  border-bottom: 2px solid #bebed2;
-  font-size: 1rem;
-  max-width: 500px
+  border-bottom: 2px solid #bebed2
 }
 
 input:focus {
-  border-bottom: 2px solid #78788c;
+  border-bottom: 2px solid #78788c
 }
 
-.email:before {
+.email :before {
   content: attr(type);
   display: block;
-  margin: 10px 0 5px;
+  margin: 28px 0 0;
   font-size: 14px;
-  color: #5a5a5a;
-  text-transform: uppercase;
+  color: #5a5a5a
 }
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #E07D78;
+  color: #fff;
+  border-color: #E07D78;
+}
+
 
 /* Submit Button */
 button {
