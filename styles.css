@@ -370,8 +370,17 @@ ul.social-buttons li {
   margin-top: auto;
 }
 
+/* Custom styling for Boxi logo */
+.boxi-img {
+  object-fit: contain !important; /* Show entire logo without cropping */
+  padding: 20px; /* Add padding to prevent the logo from touching the edges */
+  background-color: white; /* White background to make logo stand out */
+}
 
-
-
-
-
+/* Custom styling for Archimedes image */
+.archimedes-img {
+  object-position: top center !important; /* Align to top-center */
+  object-fit: cover;
+  transform: scale(1.1); /* Slightly zoom out to show more of the body */
+  transform-origin: top center; /* Keep the head at the top while zooming */
+}
