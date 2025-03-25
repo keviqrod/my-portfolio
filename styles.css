@@ -345,7 +345,7 @@ ul.social-buttons li {
 
 /* Create consistent image container with fixed height */
 .card-img-container {
-  height: 200px;  /* Adjust this value based on your preference */
+  height: 240px;  /* Increased height to show more of the image */
   overflow: hidden;
   position: relative;
 }
@@ -355,7 +355,7 @@ ul.social-buttons li {
   width: 100%;
   height: 100%;
   object-fit: cover;  /* This crops/scales images to fit the container */
-  object-position: center;  /* Centers the image in the container */
+  object-position: top;  /* Ensures the top part of the image is always visible */
 }
 
 /* Make card body flex to push button to bottom */
