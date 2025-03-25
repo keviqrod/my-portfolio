@@ -335,6 +335,41 @@ ul.social-buttons li {
   }
 }
 
+/* Project Card Image Standardization */
+/* Standardize project card heights */
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Create consistent image container with fixed height */
+.card-img-container {
+  height: 200px;  /* Adjust this value based on your preference */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Make all project images fill their containers consistently */
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* This crops/scales images to fit the container */
+  object-position: center;  /* Centers the image in the container */
+}
+
+/* Make card body flex to push button to bottom */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Push the button to the bottom of card */
+.card-body .btn {
+  margin-top: auto;
+}
+
 
 
 
